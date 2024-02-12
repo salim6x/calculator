@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Kanit:wght@300;600&family=Oswald:wght@500&family=REM&family=Roboto+Mono:wght@200&family=Varela+Round&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif
+}
+.main-contnear{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    gap: 100px;
+}
+.calculator-contnear{
+    width: 300px;
+    height: 430px;
+    border-radius: 25px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px #ffa500 solid;
+}
+.button{
+    height: 55px;
+    width: 55px;
+    border-radius: 20px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    background-color: #ffff;
+    cursor: pointer;
+    margin: 3px 4px;
+}
+.button2x{
+    width: 122px;
+    border-radius: 13px;
+    border: none;
+    outline: none;
+    background-color: #ffa500;
+}
+#input-js{
+    height: 100px;
+    width: 295.5px;
+    color: #ffa500;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 2rem;
+    padding-right: 5px;
+    margin-bottom: 10px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+}
+.color-chang{
+    background-color: #ffa500;
+}
+h3{
+    font-size: 3.2rem;
+    background-color: #ffffff;
+    border: 2px #ffa500 solid;
+    padding: 25px;
+    border-radius: 20px;
+}
